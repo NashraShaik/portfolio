@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: url(as.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+  
+}
+
+
+header .logo{
+    flex: 1;
+    color: rgb(5, 2, 48);
+
+    margin-left: 50px;
+    font-size: small;
+}
+header .logo a h1{
+    color:  rgba(5, 2, 48, 0.783);
+    
+}
+
+header .logo a h1 span{
+    color:  rgb(224, 13, 28);
+    
+}
+
+header ul{  
+    display: flex;
+    justify-content: space-evenly;  
+
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+ 
+    color:  yellow;
+
+    font-weight: 600;
+    
+    padding: 10px 30px;
+    margin:  0 5px;
+   
+}
+
+header ul li a:hover{
+    border-bottom: 1px solid cadetblue;
+}
+
+
+.content{
+    display: grid;
+    place-items: center;
+
+    height: 70vh;
+
+    padding-top: 200px;
+}
+
+.content h1{
+    margin: 6px 0 10px;
+    color: rgb(164, 49, 7);
+}
+
+.content h3{
+    font-size: 25px;
+}
+
+.about{
+    width: 100%;
+    padding: 80px 200px;
+
+}
+
+.about img{
+    height: 310px;
+    width: 240px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 60px;
+    padding-top: 100px;
+
+}
+
+.image img{ 
+    border-top: 4px solid #f9004d;
+    border-left: 4px solid  #f9004d;
+}
+
+.about-text h2{
+    color:  rgb(5, 2, 48);
+
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    color: rgba(34, 2, 34, 0.993);
+
+    letter-spacing: 1px;
+    line-height: 28px;
+
+    font-size: 18px;
+
+    margin-bottom: 30px;
+
+
+}
+
+button{
+    background-color: #f9004d;
+    color: white;
+
+    border: 2px solid transparent;
+    border-radius: 30px;
+
+    font-weight: bold;
+
+    padding: 13px 30px;
+
+}
+
+button:hover{
+    background-color: transparent;
+
+    border: 2px solid #f9004d;
+}
+
+.edu h2{
+    color: rgb(5, 2, 48);
+    font-size: 40px;
+
+    text-align: center;
+
+    margin-bottom: 30px;
+    margin-right: 80px;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    height: 180px;
+    width: 300px;
+
+    background: #1919196d;
+
+    border-radius: 20px;
+
+    margin: 15px;
+
+    text-align: center;
+}
+
+.card i{
+    font-size: 25px;
+    
+    margin: 25px 0px;
+
+    color: #f9004d;
+
+}
+
+h5{
+    color: rgb(5, 2, 48);
+    font-size: 23px;
+    
+    margin-bottom: 15px;
+
+}
+
+.para p{
+    color: #fcfc;
+
+    font-size: 18px;
+}
+
+
+.skills h1{
+    text-align: center;
+
+    margin-right: 100px;
+
+    color: rgb(5, 2, 48);
+    font-size: 40px;
+}
+
+.skills h3{
+    margin: 5px;
+}
+
+.skills{
+    width: 500px;
+
+    margin: 60px auto;
+    padding: 20px;
+
+    color: rgba(34, 2, 34, 0.993);
+}
+
+.skills li{
+    margin: 20px 0;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+
+    height: 20px;
+    
+    border: 1px solid green;
+
+    overflow: hidden;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100% );
+}
+
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 80%;
+    animation: html 3s;
+}
+.react{
+    width: 40%;
+    animation: html 3s;
+}
+.python{
+    width: 60%;
+    animation: html 3s;
+}
+
+.footer{
+    
+    padding: 40px;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center; 
+}
+
+.footer .icons i{
+    font-size: large;
+    padding: 10px;
+
+    color: black;
+    
+}
+
+
+
+
